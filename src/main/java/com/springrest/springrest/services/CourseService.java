@@ -10,4 +10,8 @@ public interface CourseService {
     public Course getCourse(long courseId);
 
     Course addCourse(Course course);
+
+    Course updateCourse(Course course);
+
+    void deleteCourse(long parseLong);
 }
